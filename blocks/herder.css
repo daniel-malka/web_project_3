@@ -1,0 +1,17 @@
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__title {
+  color: #fff;
+}
+.header__subtitle {
+  color: #fff;
+}
+.header__img {
+  width: 984px;
+  height: 615px;
+  filter: grayscale()
+}
