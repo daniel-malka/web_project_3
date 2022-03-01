@@ -1,0 +1,13 @@
+.main {
+ 
+}
+
+
+.main__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1em;
+}

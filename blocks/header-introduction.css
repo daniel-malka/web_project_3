@@ -1,0 +1,25 @@
+
+.header__intro {
+  align-self: flex-start;
+  max-width: 785px;
+}
+.intro_title {
+  color: #fff;
+  align-self: flex-start;
+}
+.intro_subtitle {
+  font-size: 1.5em;
+  color: #fff;
+  align-self: flex-start;
+}
+.intro_quote {
+  font-size: 1.5em;
+  color: #fff;
+display: flex;
+flex-direction: row-reverse;
+}
+.intro_footer {
+  font-size: 1em;
+  color: #fff;
+  align-self: flex-start;
+}
