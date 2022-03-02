@@ -8,7 +8,7 @@
 .city {
   display: grid;
   grid-template-columns: 28.75em 1fr;
-  grid-template-rows: 9.5em 12.4em 16.35em 16.35em;
+  grid-template-rows: 9.5em 12.4em 16.35em 3em;
   column-gap: 2.5em;
   row-gap: 3em;
   margin-bottom: 5em;
@@ -30,7 +30,12 @@
 }
 .city__image {
   grid-column: 1;
-  width: 1fr;
+  grid-row: 2;
+  width: 28.75em;
+  height: 28.75em;
+}
+.city__image:last-of-type {
+  object-fit: cover;
 }
 
 .city__purchase {
