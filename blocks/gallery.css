@@ -1,9 +1,8 @@
 .main {
  
 }
-
-
 .main__gallery {
+  margin-bottom: 5.8em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
