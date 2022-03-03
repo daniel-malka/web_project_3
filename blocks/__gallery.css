@@ -10,16 +10,24 @@
   width: 17.5rem;
   transition: width 300ms ease-in-out;
 }
+
 @media screen and (max-width: 1184px) {
   .main__img {
   width: 20rem;
+ }
 }
 @media screen and (max-width: 1000px) {
   .main__img {
     width: calc(50vw - 1.5rem);
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
+  .main__gallery {
+    column-gap: .7rem;
+    row-gap: .7rem;
+
+  }
+@media screen and (max-width: 600px) {
   .main__gallery {
     margin-bottom: 10rem;
   }
