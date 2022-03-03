@@ -2,12 +2,16 @@
   align-self: flex-start;
   max-width: 49.5em;
   margin-top: 5.75em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
 }
 .intro_title {
   font-family: "Inter-bold", "Arial", sans-serif;
   font-size: 3.6em;
   line-height: 1;
   max-width: 49em;
+  padding-bottom: 3rem;
   margin-block-start: 0;
   margin-block-end: 0;
   -webkit-font-smoothing: antialiased;
@@ -21,6 +25,7 @@
   font-style: normal;
   font-size: 1.5em;
   line-height: 1.5;
+  padding-bottom: 0.6rem;
   margin-block-start: 0;
   margin-block-end: 0;
   max-width: 28em;
@@ -35,7 +40,7 @@
   font-style: normal;
   font-size: 1.5em;
   line-height: 1.5;
-  max-width: 28em;
+  max-width: 30em;
   margin-block-start: 0;
   margin-block-end: 0;
   -webkit-font-smoothing: antialiased;

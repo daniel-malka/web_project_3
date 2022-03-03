@@ -1,11 +1,11 @@
-@import "../blocks/page.css";
-@import "../blocks/herder.css";
-@import "../blocks/header-introduction.css";
-@import "../blocks/gallery.css";
-@import "../blocks/cities.css";
-@import "../blocks/city.css";
-@import "../blocks/about.css";
-@import "../blocks/footer.css";
+@import "../blocks/__page.css";
+@import "../blocks/__header.css";
+@import "../blocks/__header-introduction.css";
+@import "../blocks/__gallery.css";
+@import "../blocks/__cities.css";
+@import "../blocks/__city.css";
+@import "../blocks/__about.css";
+@import "../blocks/__footer.css";
 
 @font-face {
   font-family: "Inter-Regular", "Arial", sans-serif;
