@@ -64,6 +64,11 @@
   align-self: flex-start;
   margin-bottom: 7em;
 }
+@media screen and (min-width: 1280px) {
+  .header__intro {
+    padding-left: calc((100vw - 1280px) / 2);
+  }
+}
 @media screen and (max-width: 1000px) {
   .header__intro {
     padding-left: 2rem;
@@ -78,8 +83,6 @@
   }
   .intro_quote {
     max-width: calc(100vmax - 4rem);
-  }
-  .intro_footer {
   }
 }
 @media screen and (max-width: 770px) {
@@ -107,14 +110,14 @@
 }
 @media screen and (max-width: 580px) {
   .header__intro {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin-top: 4em;
-    line-height: 1.2;
   }
   .intro_title {
     max-width: calc(100vmax - 4rem);
     font-size: 2.5em;
+    line-height: 1.2;
   }
   .intro_subtitle {
     max-width: calc(100vmax - 4rem);
@@ -128,11 +131,21 @@
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 550px) {
+  .intro_title,
+  .intro_subtitle,
+  .intro_quote,
+  .intro_footer {
+    padding: 0 4rem;
+  }
+}
+
 @media screen and (max-width: 400px) {
-  .header__intro {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 4em;
+  .intro_title,
+  .intro_subtitle,
+  .intro_quote,
+  .intro_footer {
+    padding: 0 4rem;
   }
   .header__title {
     max-width: calc(100vmax - 2rem);
@@ -141,19 +154,10 @@
   }
 }
 @media screen and (max-width: 340px) {
-  .intro_title {
-    max-width: calc(100vmax - 4rem);
-    font-size: 2rem;
-  }
-  .intro_subtitle {
-    max-width: calc(100vmax - 4rem);
-    font-size: 1.5rem;
-  }
-  .intro_quote {
-    max-width: calc(100vmax - 4rem);
-    font-size: 1.5rem;
-  }
+  .intro_title,
+  .intro_subtitle,
+  .intro_quote,
   .intro_footer {
-    font-size: 1rem;
+    padding: 0;
   }
 }

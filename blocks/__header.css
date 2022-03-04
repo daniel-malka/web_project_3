@@ -10,7 +10,6 @@
   font-family: "Inter-bold", "Arial", sans-serif;
   text-align: center;
   color: #fff;
-  font-family: "Inter", "Arial";
   font-weight: 900;
   font-size: 5.5rem;
   line-height: 1;
@@ -41,7 +40,7 @@
   transition: font-size 300ms ease;
 }
 .header__img {
-  width: calc(100vw- 2rem);
+  width: calc(100vw - 6rem);
   height: fit-content;
   filter: grayscale();
   transition: width 400ms ease;
@@ -66,7 +65,7 @@
   .header__title {
     max-width: calc(100vmax - 4rem);
     padding: 0 2rem 2rem;
-    font-size: 4.6rem;
+    font-size: 4.3rem;
   }
   .header__subtitle {
     max-width: calc(100vmax - 4rem);
@@ -82,14 +81,14 @@
 }
 @media screen and (max-width: 580px) {
   .header__title {
-    max-width: calc(100vmax - 2rem);
-    padding: 0 2rem 2rem;
+    width: 100vw;
+    padding: 0 3rem;
     font-size: 3.75rem;
   }
   .header__subtitle {
-    max-width: calc(100vmax - 4rem);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    max-width: 100vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
     font-size: 1.5;
   }
   .header__img {
@@ -97,18 +96,44 @@
     max-width: 0 calc(-50vw + 50%);
   }
 }
+@media screen and (max-width: 550px) {
+  .header__title {
+    width: 100vw;
+    padding: 0 7rem;
+    font-size: 3.5rem;
+  }
+  .header__subtitle {
+    max-width: 100vw;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-size: 1.3;
+  }
+}
+@media screen and (max-width: 530px) {
+  .header__title {
+    width: calc(100vw - 2rem);
+    padding: 0 7rem;
+    font-size: 3.2rem;
+  }
+  .header__subtitle {
+    width: calc(100vw - 2rem);
+    padding-left: 7rem;
+    padding-right: 7rem;
+    font-size: 1.1;
+  }
+}
 @media screen and (max-width: 400px) {
   .header__title {
     max-width: calc(100vmax - 2rem);
     padding: 0 2rem 2rem;
-    font-size: 3.3rem;
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 340px) {
   .header__title {
     max-width: calc(100vmax - 1rem);
     padding: 0 2rem 2rem;
-    font-size: 3rem;
+    font-size: 1.4rem;
   }
   .header__subtitle {
     max-width: calc(100vmax - 1rem);
