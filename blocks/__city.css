@@ -49,6 +49,7 @@
   grid-row: 3/4;
 }
 .city__purchase_text {
+  text-decoration: none;
   color: #fff;
   font-family: "Inter-semiBold", "Arial", sans-serif;
   font-style: normal;

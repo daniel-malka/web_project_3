@@ -40,12 +40,16 @@
   transition: font-size 300ms ease;
 }
 .header__img {
-  width: calc(100vw - 6rem);
+  /* max-width: calc(100vw - 6rem); */
   height: fit-content;
   filter: grayscale();
   transition: width 400ms ease;
 }
-
+@media screen and (min-width: 800px) {
+  .header__img {
+    max-width: calc(100vw - 6rem);
+  }
+}
 @media screen and (max-width: 1000px) {
   .header__title {
     max-width: calc(100vmax - 4rem);
@@ -97,6 +101,10 @@
   }
 }
 @media screen and (max-width: 550px) {
+  .header__img {
+    max-width: 100%;
+    width: 100%;
+  }
   .header__title {
     width: 100vw;
     padding: 0 7rem;

@@ -10,8 +10,6 @@
   height: 45rem;
   width: 70rem;
   opacity: 0.8;
-  transition: width 300ms ease-in-out;
-  transition: height 300ms ease-in-out;
 }
 .about::after {
   content: "";
@@ -87,6 +85,7 @@
   z-index: 2;
 }
 .about__button_text {
+  text-decoration: none;
   color: #fff;
   font-family: "Inter-semiBold", "Arial", sans-serif;
   font-style: normal;
@@ -118,13 +117,21 @@
 @media screen and (max-width: 800px) {
   .about {
     width: 100vw;
+    height: 28rem;
     object-fit: center;
+  }
+  .about__title {
+    font-size: 2.7rem;
   }
 }
 
 @media screen and (max-width: 500px) {
   .about {
     width: 100vw;
+    height: 20rem;
     object-fit: center;
+  }
+  .about__subtitle {
+    font-size: 1rem;
   }
 }
