@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/__background-Art-Gallery.svg");
+  background-image: url("../images/__background-Art-Gallery.jpg");
   background-position: center;
   background-repeat: no-repeat;
   height: 45rem;
@@ -72,7 +72,8 @@
 }
 
 .about__button {
-  display: grid;
+  text-decoration: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -80,9 +81,7 @@
   background-color: #0278fe;
   width: 9.5em;
   height: 3em;
-  grid-column: 1;
-  grid-row: 4/5;
-  z-index: 2;
+  z-index: 1;
 }
 .about__button_text {
   text-decoration: none;

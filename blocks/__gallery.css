@@ -1,4 +1,4 @@
-.main__gallery {
+.gallery {
   margin-bottom: 5.8em;
   display: flex;
   flex-wrap: wrap;
@@ -22,13 +22,13 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .main__gallery {
+  .gallery {
     column-gap: 0.7rem;
     row-gap: 0.7rem;
   }
 }
 @media screen and (max-width: 600px) {
-  .main__gallery {
+  .gallery {
     margin-bottom: 6rem;
   }
   .main__img {
@@ -37,7 +37,7 @@
   }
 }
 @media screen and (max-width: 560px) {
-  .main__gallery {
+  .gallery {
     margin-bottom: 3rem;
   }
 }

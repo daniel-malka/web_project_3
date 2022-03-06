@@ -1,6 +1,6 @@
 @import "../blocks/__page.css";
 @import "../blocks/__header.css";
-@import "../blocks/__header-introduction.css";
+@import "../blocks/__header-intro.css";
 @import "../blocks/__gallery.css";
 @import "../blocks/__cities.css";
 @import "../blocks/__city.css";
@@ -12,9 +12,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Inter-3.19/Inter/Web/Inter-Regular.woff2?v")
-      format("woff2"),
-    url("../fonts/Inter-3.19/Inter/Web/Inter-Regular.woff?v") format("woff");
+  src: url("../fonts/Inter-Regular.woff2?v") format("woff2"),
+    url("../fonts/Inter-Regular.woff?v") format("woff");
 }
 
 @font-face {
@@ -22,14 +21,14 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Inter-3.19/Web/Inter-SemiBold.woff2") format("woff2"),
-    url("../fonts/Inter-3.19/Web/Inter-SemiBold.woff") format("woff");
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("../fonts/Inter-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "Inter-bold", "Arial", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../fonts/Inter-3.19/Web/Inter-Bold.woff2") format("woff2"),
-    url("../fonts/Inter-3.19/Web/Inter-Bold.woff") format("woff");
+  src: url("../fonts/Inter-Bold.woff2") format("woff2"),
+    url("../fonts/Inter-Bold.woff") format("woff");
 }
