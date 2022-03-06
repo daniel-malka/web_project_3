@@ -40,7 +40,6 @@
   transition: font-size 300ms ease;
 }
 .header__img {
-  /* max-width: calc(100vw - 6rem); */
   height: fit-content;
   filter: grayscale();
   transition: width 400ms ease;

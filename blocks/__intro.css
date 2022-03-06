@@ -1,4 +1,4 @@
-.header__intro {
+.intro {
   align-self: flex-start;
   max-width: 49.5em;
   margin-top: 5.75em;
@@ -6,7 +6,7 @@
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
 }
-.intro_title {
+.intro__title {
   font-family: "Inter-bold", "Arial", sans-serif;
   font-size: 3.6em;
   line-height: 1;
@@ -20,7 +20,7 @@
   color: #fff;
   align-self: flex-start;
 }
-.intro_subtitle {
+.intro__subtitle {
   font-family: "Inter-Regular", "Arial", sans-serif;
   font-style: normal;
   font-size: 1.5em;
@@ -35,7 +35,7 @@
   color: #fff;
   align-self: flex-start;
 }
-.intro_quote {
+.intro__quote {
   font-family: "Inter-Regular", "Arial", sans-serif;
   font-style: normal;
   font-size: 1.5em;
@@ -50,7 +50,7 @@
   display: flex;
   flex-direction: row-reverse;
 }
-.intro_footer {
+.intro__footer {
   font-family: "Inter-Regular", "Arial", sans-serif;
   font-style: normal;
   font-size: 1em;
@@ -66,81 +66,97 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .header_intro {
+  .intro {
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 4em;
   }
-  .intro_title {
+  .intro__title {
     max-width: calc(100vmax - 4rem);
   }
-  .intro_subtitle {
+  .intro__subtitle {
     max-width: calc(100vmax - 4rem);
   }
-  .intro_quote {
+  .intro__quote {
     max-width: calc(100vmax - 4rem);
   }
 }
+@media screen and (max-width: 800px) {
+  .intro {
+    padding-left: 8rem;
+    padding-right: 5rem;
+    margin-top: 4em;
+  }
+  .intro__title {
+    max-width: calc(100vw - 4rem);
+  }
+  .intro__subtitle {
+    max-width: calc(100vw - 4rem);
+  }
+  .intro__quote {
+    max-width: calc(100vw - 4rem);
+  }
+}
 @media screen and (max-width: 770px) {
-  .header_intro {
+  .intro {
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 4em;
   }
-  .intro_title {
+  .intro__title {
     max-width: calc(100vmax - 4rem);
     font-size: 3rem;
   }
-  .intro_subtitle {
+  .intro__subtitle {
     max-width: calc(100vmax - 4rem);
 
     font-size: 1.5rem;
   }
-  .intro_quote {
+  .intro__quote {
     max-width: calc(100vmax - 4rem);
     font-size: 1.5rem;
   }
-  .intro_footer {
+  .intro__footer {
     font-size: 1rem;
   }
 }
 @media screen and (max-width: 580px) {
-  .header__intro {
+  .intro {
     padding-left: 4rem;
     padding-right: 4rem;
     margin-top: 4em;
   }
-  .intro_title {
+  .intro__title {
     max-width: calc(100vmax - 4rem);
     font-size: 2.5em;
     line-height: 1.2;
   }
-  .intro_subtitle {
+  .intro__subtitle {
     max-width: calc(100vmax - 4rem);
     font-size: 1.5rem;
   }
-  .intro_quote {
+  .intro__quote {
     max-width: calc(100vmax - 4rem);
     font-size: 1.5rem;
   }
-  .intro_footer {
+  .intro__footer {
     font-size: 1rem;
   }
 }
 @media screen and (max-width: 550px) {
-  .intro_title,
-  .intro_subtitle,
-  .intro_quote,
-  .intro_footer {
+  .intro__title,
+  .intro__subtitle,
+  .intro__quote,
+  .intro__footer {
     padding: 0 4rem;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .intro_title,
-  .intro_subtitle,
-  .intro_quote,
-  .intro_footer {
+  .intro__title,
+  .intro__subtitle,
+  .intro__quote,
+  .intro__footer {
     padding: 0 4rem;
   }
   .header__title {
@@ -150,10 +166,10 @@
   }
 }
 @media screen and (max-width: 340px) {
-  .intro_title,
-  .intro_subtitle,
-  .intro_quote,
-  .intro_footer {
+  .intro__title,
+  .intro__subtitle,
+  .intro__quote,
+  .intro__footer {
     padding: 0;
   }
 }
