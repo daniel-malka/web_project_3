@@ -1,3 +1,4 @@
+@import "../vendor/normalize.css";
 @import "../blocks/__page.css";
 @import "../blocks/__header.css";
 @import "../blocks/__intro.css";
