@@ -94,6 +94,35 @@
   margin-block-end: 0;
   z-index: 2;
 }
+.content__button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 0.25em;
+  background-color: #0278fe;
+  width: 9.5em;
+  height: 3em;
+  z-index: 1;
+}
+.content__text {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter-semiBold", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.2;
+  max-width: 13.25em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  z-index: 2;
+}
 .content__button:hover,
 .content__text:hover {
   cursor: pointer;
