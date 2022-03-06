@@ -22,7 +22,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.header__item1 {
+.page__item1 {
   position: absolute;
   left: 0.68rem;
   bottom: 0;
@@ -30,7 +30,7 @@
   height: 80%;
   background-color: #2a2c2f;
 }
-.header__item2 {
+.page__item2 {
   position: absolute;
   top: 20%;
   left: 20;
@@ -38,7 +38,7 @@
   height: 2px;
   background-color: #2a2c2f;
 }
-.header__logo_text {
+.page__text {
   font-family: "Inter-SemiBold", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -48,11 +48,11 @@
   color: #fff;
 }
 @media screen and (max-width: 600px) {
-  .header__logo {
+  .page__logo {
     width: 1.5rem;
     height: 1.5rem;
   }
-  .header__logo_text {
+  .page__text {
     font-size: 0.7rem;
   }
 }
