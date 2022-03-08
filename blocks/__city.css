@@ -33,7 +33,7 @@
   height: 28.75em;
   transition: width 500ms ease-in-out;
 }
-.city__image:nth-of-type(5) {
+.city__image:last-of-type {
   object-fit: cover;
 }
 .city__purchase {
