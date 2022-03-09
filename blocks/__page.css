@@ -20,7 +20,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.logo__vertical_stick {
+.logo__vertical {
   position: absolute;
   left: 0.68rem;
   bottom: 0;
@@ -28,13 +28,13 @@
   height: 80%;
   background-color: #2a2c2f;
 }
-.logo__horozontal_stick {
+.logo__horozontal {
   position: absolute;
   top: 20%;
   left: 20;
   width: 100%;
   height: 2px;
-  background-color: #2a2c2f;
+  background-color: hsl(216, 6%, 17%);
 }
 .page__text {
   font-family: "Inter", "Arial", sans-serif;
