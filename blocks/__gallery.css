@@ -1,4 +1,5 @@
 .gallery {
+  box-sizing: border-box;
   margin-bottom: 5.8em;
   display: flex;
   flex-wrap: wrap;
