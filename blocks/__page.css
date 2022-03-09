@@ -1,5 +1,4 @@
 .page {
-  font-family: "Inter", "Ariel", "sans-serif";
   font-size: 16px;
   line-height: 20px;
   max-width: 1280px;
@@ -10,10 +9,9 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
 }
 
-.page__logo {
+.logo {
   position: relative;
   width: 2rem;
   height: 2rem;
@@ -22,7 +20,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.page__item1 {
+.logo__vertical_stick {
   position: absolute;
   left: 0.68rem;
   bottom: 0;
@@ -30,7 +28,7 @@
   height: 80%;
   background-color: #2a2c2f;
 }
-.page__item2 {
+.logo__horozontal_stick {
   position: absolute;
   top: 20%;
   left: 20;
@@ -39,7 +37,7 @@
   background-color: #2a2c2f;
 }
 .page__text {
-  font-family: "Inter-SemiBold", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   display: flex;

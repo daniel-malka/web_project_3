@@ -7,7 +7,8 @@
   -webkit-text-size-adjust: 100%;
 }
 .intro__title {
-  font-family: "Inter-bold", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
   font-size: 3.6em;
   line-height: 1;
   max-width: 49em;
@@ -21,7 +22,8 @@
   align-self: flex-start;
 }
 .intro__subtitle {
-  font-family: "Inter-Regular", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
   line-height: 1.5;
@@ -36,7 +38,8 @@
   align-self: flex-start;
 }
 .intro__quote {
-  font-family: "Inter-Regular", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
   line-height: 1.5;
@@ -51,7 +54,8 @@
   flex-direction: row-reverse;
 }
 .intro__footer {
-  font-family: "Inter-Regular", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 1em;
   line-height: 1.5;

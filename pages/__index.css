@@ -8,29 +8,3 @@
 @import "../blocks/__about.css";
 @import "../blocks/__content.css";
 @import "../blocks/__footer.css";
-
-@font-face {
-  font-family: "Inter-Regular", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/Inter-Regular.woff2?v") format("woff2"),
-    url("../fonts/Inter-Regular.woff?v") format("woff");
-}
-
-@font-face {
-  font-family: "Inter-SemiBold", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
-    url("../fonts/Inter-SemiBold.woff") format("woff");
-}
-@font-face {
-  font-family: "Inter-bold", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("../fonts/Inter-Bold.woff2") format("woff2"),
-    url("../fonts/Inter-Bold.woff") format("woff");
-}
