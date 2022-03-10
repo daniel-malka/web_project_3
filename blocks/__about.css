@@ -8,7 +8,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45rem;
+  min-height: 45rem;
+  max-width: 98vw;
   opacity: 0.8;
 }
 .about::after {
@@ -17,9 +18,11 @@
   top: 0;
   left: 0;
   height: 45rem;
+  max-width: 98vw;
   width: calc(1280px - 3rem);
   background: rgba(0, 0, 0, 0.2);
   transition: background 200ms ease-in-out;
+  overflow: hidden;
 }
 .about:hover::after {
   z-index: 1;
