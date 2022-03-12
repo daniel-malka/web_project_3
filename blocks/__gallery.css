@@ -1,5 +1,4 @@
 .gallery {
-  box-sizing: border-box;
   margin-bottom: 5.8em;
   display: flex;
   flex-wrap: wrap;
@@ -22,7 +21,7 @@
     align-items: center;
   }
   .main__img {
-    width: calc(50vw - 1rem);
+    width: calc(50% - 1rem);
   }
 }
 @media screen and (max-width: 800px) {
@@ -33,11 +32,13 @@
 }
 @media screen and (max-width: 600px) {
   .gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     margin-bottom: 6rem;
   }
   .main__img {
     width: calc(100vw - 2rem);
-    margin: 0 calc(-50vw + 50%);
   }
 }
 @media screen and (max-width: 560px) {
