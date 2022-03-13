@@ -182,10 +182,12 @@
 
 @media screen and (max-width: 785px) {
   .city {
-    grid-template: auto 21.5rem auto 8rem/ 21.5rem 1fr;
+    box-sizing: border-box;
+    grid-template: auto 21.5rem auto 8rem/ 21.5rem auto;
   }
   .city:nth-of-type(4) {
-    grid-template: auto 21.5rem auto 14rem/ 21.5rem 1fr;
+    box-sizing: border-box;
+    grid-template: auto 21.5rem auto 14rem/ 21.5rem auto;
   }
   .city__header {
     font-size: 2.4rem;
