@@ -64,7 +64,7 @@
   cursor: pointer;
   background: rgba(0, 99, 210, 1);
 }
-.city__credits {
+.credits {
   grid-column: 2;
   grid-row: 1;
   display: flex;
@@ -93,7 +93,7 @@
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.city__description {
+.description {
   display: flex;
   flex-direction: column;
   grid-row: 2/ -1;
@@ -129,7 +129,7 @@
   .credits__name {
     font-size: 1.2rem;
   }
-  .city__description {
+  .description {
     padding-right: 1rem;
   }
   .description__text {
@@ -236,7 +236,7 @@
     align-self: flex-start;
     padding-left: 1.5rem;
   }
-  .city__description {
+  .description {
     box-sizing: border-box;
     padding: 0 1rem;
   }
