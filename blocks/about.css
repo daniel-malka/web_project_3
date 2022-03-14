@@ -28,7 +28,7 @@
   background-color: #2a2c2f;
   opacity: 0.8;
 }
-.about__text {
+.text {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -127,7 +127,7 @@
   }
 }
 @media screen and (max-width: 1000px) {
-  .about__text {
+  .text {
     margin: 0 auto;
   }
 }
