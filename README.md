@@ -11,4 +11,8 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)
 
-link yo the project https://daniel-malka.github.io/web_project_3/
+github link to my project https://daniel-malka.github.io/web_project_3/
+ 
+ thanks for the review!
+ will use ul and article next project..
+ i had a rough (and fulfilling) time 
