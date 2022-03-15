@@ -12,7 +12,24 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)
 
 github link to my project https://daniel-malka.github.io/web_project_3/
- 
- thanks for the review!
- will use ul and article next project..
- i had a rough (and fulfilling) time 
+
+-------------1st review---------------
+thanks for the review!
+will use ul and article next project..
+i had a rough (and fulfilling) time
+-------------1st review---------------
+
+-------------2nd review---------------
+thanks for the review i sure need to start working on my perfection
+and to work with pixelPerfect.
+
+really proud of myself. got much better after this review.
+now i understand the pricabol to stick with figma.
+also didnt worked with pixels at beggining... 
+
+
+<!-- http://joxi.ru/Dr8GKevuKY8bpA -->
+
+lines 111(credits), 120(description), (text) comment http://joxi.ru/gmvLRZ3UeJoa6A
+although its a new block, it cant be alone by itself therefore it is considerd to be unseperate from its parent?
+-------------2nd review---------------

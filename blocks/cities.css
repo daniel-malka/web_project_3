@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 93px;
-  margin-bottom: 93px;
+  row-gap: 80px;
+  margin-bottom: 105px;
 }
 @media screen and (max-width: 800px) {
   .cities {
@@ -14,6 +14,6 @@
 
 @media screen and (max-width: 600px) {
   .cities {
-    row-gap: 128px;
+    row-gap: 63px;
   }
 }

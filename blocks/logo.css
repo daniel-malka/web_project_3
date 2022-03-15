@@ -1,19 +1,7 @@
-.header {
+.logo {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.logo__logo {
-  width: 270px;
-  margin-bottom: 90px;
-}
-
-@media screen and (max-width: 500px) {
-  .logo__logo {
-    width: 200px;
-  margin-bottom: 50px;
-
-  }
 }

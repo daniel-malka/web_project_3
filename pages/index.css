@@ -2,12 +2,16 @@
 @import "../blocks/page.css";
 @import "../blocks/body.css";
 @import "../blocks/logo.css";
-@import "../blocks/header.css";
+@import "../blocks/__logo.css";
 @import "../blocks/content.css";
+@import "../blocks/header.css";
 @import "../blocks/intro.css";
 @import "../blocks/gallery.css";
 @import "../blocks/cities.css";
 @import "../blocks/city.css";
+@import "../blocks/credits.css";
+@import "../blocks/description.css";
 @import "../blocks/about.css";
+@import "../blocks/text.css";
 @import "../blocks/footer.css";
 @import "../fonts/fonts.css";
