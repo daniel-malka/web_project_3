@@ -24,9 +24,8 @@ thanks for the review i sure need to start working on my perfection
 and to work with pixelPerfect.
 
 really proud of myself. got much better after this review.
-now i understand the pricabol to stick with figma.
-also didnt worked with pixels at beggining... 
-
+now i understand the principal to stick with figma.
+also didnt worked with pixels at beggining...
 
 lines 111(credits), 120(description), (text) comment http://joxi.ru/gmvLRZ3UeJoa6A
 although its a new block, it cant be alone by itself therefore it is considerd to be unseperate from its parent?
