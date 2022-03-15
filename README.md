@@ -28,8 +28,6 @@ now i understand the pricabol to stick with figma.
 also didnt worked with pixels at beggining... 
 
 
-<!-- http://joxi.ru/Dr8GKevuKY8bpA -->
-
 lines 111(credits), 120(description), (text) comment http://joxi.ru/gmvLRZ3UeJoa6A
 although its a new block, it cant be alone by itself therefore it is considerd to be unseperate from its parent?
 -------------2nd review---------------
