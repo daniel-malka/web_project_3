@@ -13,7 +13,7 @@
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
 }
-@media screen (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .page {
     padding-top: 20px;
   }
