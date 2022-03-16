@@ -21,7 +21,6 @@
   }
   .gallery__img {
     max-width: 352px;
-    width: 352px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -38,5 +37,13 @@
 @media screen and (max-width: 560px) {
   .gallery {
     margin-bottom: 52px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .gallery {
+    row-gap: 12px;
+  }
+  .gallery__img {
+    max-width: 288px;
   }
 }

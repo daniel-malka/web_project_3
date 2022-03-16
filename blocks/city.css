@@ -6,7 +6,7 @@
   row-gap: 48px;
 }
 .city__header {
-  font-size: 4.5rem;
+  font-size: 72px;
   font-family: "Inter", "Arial", sans-serif;
   color: #fff;
   line-height: 1;
@@ -34,8 +34,8 @@
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  font-size: 1.1rem;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 21.78px;
   width: 208px;
   height: 22px;
   margin-block-start: 0;
@@ -101,8 +101,8 @@
     column-gap: 28px;
   }
   .city__header {
-    font-size: 2.4rem;
-    line-height: 1.2;
+    font-size: 42px;
+    line-height: 46px;
   }
   .city__image {
     width: 21.5rem;
@@ -114,10 +114,6 @@
   .city {
     grid-template: auto 19rem auto / 19rem auto;
   }
-  .city__header {
-    font-size: 2.1rem;
-  }
-
   .city__image {
     width: 19rem;
     height: 19rem;
@@ -127,9 +123,6 @@
 @media screen and (max-width: 630px) {
   .city {
     grid-template: auto 17rem auto / 17rem auto;
-  }
-  .city__header {
-    font-size: 2.1rem;
   }
 
   .city__image {
@@ -153,7 +146,8 @@
     padding: 0 1rem;
     box-sizing: border-box;
     align-self: flex-start;
-    font-size: 2.7rem;
+    font-size: 2rem;
+    line-height: 36px;
   }
   .city__image {
     width: 100%;

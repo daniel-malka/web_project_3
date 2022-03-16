@@ -68,6 +68,7 @@
   .header__title {
     max-width: 288px;
     font-size: 40px;
+    line-height: 44px;
     padding-bottom: 1rem;
   }
   .header__subtitle {
