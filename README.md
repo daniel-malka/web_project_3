@@ -35,3 +35,9 @@ although its a new block, it cant be alone by itself therefore it is considerd t
 Incorrect distance between cities and about on 768 viewport
 the distance between them is equal to the distance on 1280px on my figmafile...
 maybe you meant 320px which got fixed
+ 
+
+-------------4th review---------------
+again. the distance between cities to about on 768vp is 105px like on 1280px..
+double checked it 100 times its ok...   
+i will open my eyes bwtter next projects. 

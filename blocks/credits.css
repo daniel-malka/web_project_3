@@ -33,5 +33,6 @@
     box-sizing: border-box;
     align-self: flex-start;
     padding-left: 1rem;
+    padding-bottom: 30px;
   }
 }

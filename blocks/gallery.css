@@ -18,9 +18,12 @@
 @media screen and (max-width: 880px) {
   .gallery {
     margin-bottom: 88px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .gallery__img {
     max-width: 352px;
+    width: 352px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -31,17 +34,19 @@
   }
   .gallery__img {
     box-sizing: border-box;
-    width: calc(100% - 1rem);
+    width: calc(100% - 2rem);
   }
 }
 @media screen and (max-width: 560px) {
   .gallery {
-    margin-bottom: 52px;
+    margin-bottom: 62px;
   }
 }
 @media screen and (max-width: 350px) {
   .gallery {
     row-gap: 12px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .gallery__img {
     max-width: 288px;
