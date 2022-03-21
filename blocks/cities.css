@@ -9,6 +9,7 @@
 @media screen and (max-width: 800px) {
   .cities {
     row-gap: 72px;
+    margin-bottom: 92px;
   }
 }
 

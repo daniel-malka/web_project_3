@@ -150,7 +150,7 @@
     box-sizing: border-box;
     align-self: flex-start;
     font-size: 2rem;
-    line-height: 36px;
+    line-height: 35px;
   }
   .city__image {
     width: 100%;
@@ -158,5 +158,9 @@
   }
   .city__text {
     margin-left: 0;
+  }
+  .city__text::before {
+    width: 288px;
+    left: -40px;
   }
 }
